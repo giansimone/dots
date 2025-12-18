@@ -41,7 +41,7 @@ hi User1 ctermfg=white ctermbg=black
 hi User2 ctermfg=red ctermbg=black
 hi User3 ctermfg=darkcyan ctermbg=black
 hi User4 ctermfg=darkyellow ctermbg=black
-hi User5 ctermfg=grey ctermbg=black
+hi User5 ctermfg=brown ctermbg=black
 
 set statusline=
 set statusline+=%3*\ %n\ %*            " Buffer number
@@ -50,6 +50,6 @@ set statusline+=%2*%y%*                " File type
 set statusline+=%1*\ %<%F%*            " Full path with truncation point
 set statusline+=%2*%m%r%h%*            " Modified + ReadOnly + Help flags
 set statusline+=%1*%=%5l%*             " Current line
-set statusline+=%5*/%L%*               " Total lines
+set statusline+=%3*/%L%*               " Total lines
 set statusline+=%1*%4v\ %*             " Virtual column
 set statusline+=%4*0x%04B\ %*          " Hex character under the cursor
