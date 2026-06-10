@@ -1,0 +1,5 @@
+# giansimone's ~/.config/ghostty/config
+# 2026 Giansimone Perrino
+
+# Disable contextual alternates (ligatures) — keeps characters visually distinct.
+font-feature = -calt
